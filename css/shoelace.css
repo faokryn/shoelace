@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Signika+Negative:400,600,700&subset=latin-ext';
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -28,4 +30,139 @@
     .container {
         width: 1170px;
     }
+}
+
+hr {
+    margin: 16px 0;
+    border: 0;
+    height: 1px;
+    background: #888888;
+    background: linear-gradient(to right,
+                                rgba(0,0,0,0),
+                                #888888 20%,
+                                #888888 80%,
+                                rgba(0,0,0,0)
+                );
+}
+
+/******************************************************************************
+ *                                 TYPOGRAPHY                                 *
+ ******************************************************************************/
+
+/* Standard Typography */
+
+html {
+    font-family: "Signika Negative", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+p {
+    margin: 0 0 10px;
+    text-align: justify;
+}
+
+p:last-child {
+    margin: 0;
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    line-height: 1.75;
+    font-weight: 600;
+    break-inside: avoid;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+/* Sub Headings */
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    color: #888888;
+    font-weight: 400;
+}
+
+h1 small, h2 small {
+    font-size: 65%;
+}
+
+h3 small, h4 small, h5 small {
+    font-size: 75%;
+}
+
+h6 small {
+    font-size: 14px;
+}
+
+/* Inline Text Elements */
+
+/* increase the highlight size around highlighted text */
+mark {
+    padding: 2px;
+}
+
+/* deemphasize deleted text and distingish it from strikethrough text by making
+   it a lighter grey */
+del {
+    color: #888888;
+}
+
+/* distinguish inserted text from underlined text with a dashed underline */
+ins {
+    text-decoration: none;
+    border-bottom: 1px dashed #333333;
+}
+
+/* further emphasize emphasized text and distinguish it from italic text by
+   making it semibold */
+em {
+    font-weight: 600;
+}
+
+/* make small font 5% larger than default */
+small {
+    font-size: 85%;
+}
+
+/* Alignment Classes */
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-justify {
+    text-align: justify;
 }
