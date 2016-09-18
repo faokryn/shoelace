@@ -121,9 +121,10 @@ h6 small {
 
 /* Inline Text Elements */
 
-/* increase the highlight size around highlighted text */
+/* increase the size of the highlight and use a more muted color */
 mark {
     padding: 2px;
+    background-color: #FFF599;
 }
 
 /* deemphasize deleted text and distingish it from strikethrough text by making
