@@ -248,3 +248,50 @@ dl dd:last-child {
 .align-justify {
     text-align: justify;
 }
+
+/* Code */
+
+code, kbd, pre, var, samp {
+    font-family: Consolas, monospace;
+    font-size: 14px;
+}
+
+code, kbd, pre, samp {
+    border-radius: 3px;
+}
+
+code, pre, samp {
+    color: #EEEEEE;
+    background: #333333;
+}
+
+pre, samp {
+    margin: 10px 0;
+    padding: 5px 20px;
+    border: 2px solid #888888;
+}
+
+kbd, var {
+    font-weight: bold;
+}
+
+code {
+    padding: 2px 5px;
+}
+
+kbd {
+    background: #EEEEEE;
+    padding: 0 2px;
+    border-right: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+}
+
+samp {
+    display: block;
+    font-style: italic;
+}
+
+var {
+    font-style: normal;
+    font-size: 16px;
+}
