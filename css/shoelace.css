@@ -204,6 +204,33 @@ blockquote footer:before {
     content: "\2014 \00A0";
 }
 
+/* Lists */
+
+ol ol > li {
+    list-style-type: lower-alpha;
+}
+
+ol ol ol > li {
+    list-style-type: lower-roman;
+}
+
+dl {
+    border-left: solid 2px #333333;
+    padding-left:10px;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    margin: 0 0 10px 10px;
+}
+
+dl dd:last-child {
+    margin-bottom: 0;
+}
+
 /* Alignment Classes */
 
 .align-left {
