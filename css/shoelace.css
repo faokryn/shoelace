@@ -206,6 +206,10 @@ blockquote footer:before {
 
 /* Lists */
 
+ul.bulletless li {
+    list-style-type: none;
+}
+
 ol ol > li {
     list-style-type: lower-alpha;
 }
