@@ -295,3 +295,88 @@ var {
     font-style: normal;
     font-size: 16px;
 }
+
+/******************************************************************************
+ *                                   BUTTONS                                  *
+ ******************************************************************************/
+
+button,
+a.btn,
+input.btn {
+    border-radius: 3px;
+    background: #FFFFFF;
+    background-image: linear-gradient(to bottom, #FFFFFF 20%, #EEEEEE 100%);
+    border: 1px solid #888888;
+    box-shadow: .75px .75px #888888;
+    color: #333333;
+    cursor: pointer;
+    margin: 2px;
+    padding: 5px 10px;
+}
+
+button:hover,
+a.btn:hover,
+input.btn:hover {
+    background: #EEEEEE;
+    background-image: linear-gradient(to bottom, #EEEEEE 20%, #DDDDDD 100%);
+}
+
+button:active,
+a.btn:active,
+input.btn:active {
+    background: #CCCCCC;
+    background-image: linear-gradient(to bottom, #BBBBBB 0%, #CCCCCC 70%);
+    box-shadow: none;
+}
+
+/* Sizes */
+
+button.lg,
+a.btn.lg,
+input.btn.lg {
+    border-radius: 5px;
+    font-size: 16px;
+    padding:10px 20px;
+}
+
+button.sm,
+a.btn.sm,
+input.btn.sm {
+    font-size: 85%;
+    padding:3px 5px;
+}
+
+button.xs,
+a.btn.xs,
+input.btn.xs {
+    font-size: 85%;
+    padding: 0 3px;
+    margin: 0;
+}
+
+button.full-width,
+a.btn.full-width,
+input.btn.full-width {
+    width: 100%;
+}
+
+/* Disabled */
+
+button.disabled,
+a.btn.disabled,
+input.btn.disabled,
+button[disabled],
+a.btn[disabled],
+input.btn[disabled],
+button.disabled:hover,
+a.btn.disabled:hover,
+input.btn.disabled:hover,
+button[disabled]:hover,
+a.btn[disabled]:hover,
+input.btn[disabled]:hover {
+    background: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    color:#BBBBBB;
+    cursor: not-allowed;
+    box-shadow: none;
+}
