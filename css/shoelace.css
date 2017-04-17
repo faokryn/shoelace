@@ -82,7 +82,7 @@ a:link:hover {
 
 h1, h2, h3, h4, h5, h6 {
     margin:0;
-    line-height: 1.75;
+    margin-bottom: 10px;
     font-weight: 600;
     break-inside: avoid;
 }
@@ -116,6 +116,11 @@ h6 {
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     color: #888888;
     font-weight: 400;
+}
+
+h1 small:before, h2 small:before, h3 small:before, h4 small:before, h5 small:before, h6 small:before {
+    content: ' ';
+    display: block;
 }
 
 h1 small, h2 small {
