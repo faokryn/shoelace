@@ -390,3 +390,86 @@ input.btn[disabled]:hover {
     cursor: not-allowed;
     box-shadow: none;
 }
+
+/******************************************************************************
+ *                                   BANNERS                                  *
+ ******************************************************************************/
+
+div.banner {
+    padding: 14px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    box-shadow: 0.75px 0.75px #888888;
+
+    border: 1px solid #888888;
+    background: #EEEEEE;
+    color: #5E5E5E;
+}
+
+div.banner a,
+a div.banner {
+    font-weight: 600;
+    color: #888888;
+}
+
+div.banner.information,
+div.banner.info {
+    border-color: #0D56A6;
+    background: #DFEAF6;
+    color: #20456D;
+}
+
+div.banner.information a,
+div.banner.info a,
+a div.banner.information,
+a div.banner.info {
+    color: #0D56A6;
+}
+
+div.banner.success,
+div.banner.succ {
+    border-color: #00B64F;
+    background: #DFF8EA;
+    color: #1A7541;
+}
+
+div.banner.success a,
+div.banner.succ a,
+a div.banner.success,
+a div.banner.succ {
+    color: #00B64F;
+}
+
+div.banner.warning,
+div.banner.warn {
+    border-color: #FF9A00;
+    background: #FFF5E6;
+    color: #99671A;
+}
+
+div.banner.warning a,
+div.banner.warn a,
+a div.banner.warning,
+a div.banner.warn {
+    color: #FF9A00;
+}
+
+div.banner.failure,
+div.banner.critical,
+div.banner.fail,
+div.banner.crit {
+    border-color: #C60F0F;
+    background: #FFDCDC;
+    color: #7D2121;
+}
+
+div.banner.failure a,
+div.banner.critical a,
+div.banner.fail a,
+div.banner.crit a,
+a div.banner.failure,
+a div.banner.critical,
+a div.banner.fail,
+a div.banner.crit {
+    color: #C60F0F;
+}
