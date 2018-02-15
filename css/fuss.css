@@ -78,6 +78,10 @@ a:link:hover {
     text-decoration: underline;
 }
 
+a:visited {
+    color: #2C7FA7;
+}
+
 /* Headings */
 
 h1, h2, h3, h4, h5, h6 {
