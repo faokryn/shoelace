@@ -477,3 +477,29 @@ a div.banner.fail,
 a div.banner.crit {
     color: #C60F0F;
 }
+
+/* Full-width Banners */
+
+div.banner.top,
+div.banner.bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    border-right: none;
+    border-left: none;
+    padding: 14px 45px;
+    margin: 0;
+
+}
+
+div.banner.top {
+    top: 0;
+    border-top: none;
+}
+
+div.banner.bottom {
+    bottom: 0;
+    border-bottom: none;
+    box-shadow: 0.75px 0.75px #888888;
+}
