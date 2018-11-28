@@ -512,3 +512,43 @@ div.banner.bottom {
     border-bottom: none;
     box-shadow: 0.75px 0.75px #888888;
 }
+
+/*****************************************************************************
+*                                   MODALS                                   *
+******************************************************************************/
+
+.modal {
+    top: 32px;
+    bottom: 32px;
+    left: 32px;
+    right:32px;
+    padding: 16px;
+    position: fixed;
+    border-radius: 3px;
+    box-shadow: 0.75px 0.75px #888888;
+    background: #FFFFFF;
+
+    border: 1px solid #888888;
+}
+
+@media (min-width: 768px) {
+    .modal {
+        left: 50%;
+        width: 686px;
+        margin-left: -343px;
+    }
+}
+@media (min-width: 992px) {
+    .modal {
+        left: 50%;
+        width: 928px;
+        margin-left: -464px;
+    }
+}
+@media (min-width: 1200px) {
+    .modal {
+        left: 50%;
+        width: 1106px;
+        margin-left: -553px;
+    }
+}
